@@ -4,6 +4,12 @@ html {
     scroll-behavior: smooth;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -156,7 +162,7 @@ header {
     opacity: .2; /* Full opacity on hover */
 }
 
-@media screen and (max-width: 768px) (max-width: 768px) {
+@media screen and (max-width: 768px) {
  
 
   .logo-container {
@@ -686,7 +692,7 @@ iframe {
 }
 
 @media screen and (max-width: 768px) {
-  parallax-bottom {
+  .parallax-bottom {
     background-attachment: scroll; /* Fix for smoother scrolling and better performance on mobile */
     padding: 50px 0; /* Reduce padding to fit smaller screens */
 }
